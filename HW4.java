@@ -12,16 +12,12 @@ public class HW4 {
     public static String getFirstName() {
         System.out.println("Введите имя: ");
         String name = iScanner.nextLine();
-        // StringBuilder name = new StringBuilder();
-        // name.append(iScanner.nextLine());
         return name;
     }
 
     public static String getMiddleName() {
         System.out.println("Введите отчество: ");
         String name = iScanner.nextLine();
-        // StringBuilder name = new StringBuilder();
-        // name.append(iScanner.nextLine());
         return name;
     }
 
